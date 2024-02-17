@@ -1,0 +1,49 @@
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .hero {
+    background-color: #eee;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .featured-tours {
+    padding: 2rem;
+  }
+  
+  .featured-tours .tours-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .tour {
+    background-color: #ddd;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
